@@ -1,0 +1,46 @@
+.formulario{
+
+	
+}
+.form{
+	background-color: black;
+	padding: 2%;
+	color: white;
+}
+
+.titulo{
+	font-family: impact;
+	margin: 20px auto 30px auto;
+}
+
+.form-texto{
+	padding: 2%;
+	border: 1.5px black solid;
+	background:  linear-gradient(to bottom , #ffffff, #AFEEEE);
+}
+
+@media screen and (max-width: 768px) {
+	.imgMarco{
+		opacity: 0;
+		position: absolute;
+		width: 0px;
+	}
+	.form{
+		border-radius: 0px 0px 10px 10px; 
+	}
+	.form-texto{
+		border-radius: 10px 10px 0px 0px;
+	}
+}
+
+@media screen and (min-width: 769px) {	
+	.imgMarco{
+		opacity: 1;
+	}
+	.form{
+		border-radius: 0px 10px 10px 0px; 
+	}
+	.form-texto{
+		border-radius: 10px 0px 0px 10px;
+	}
+}

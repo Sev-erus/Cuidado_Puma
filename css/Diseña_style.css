@@ -1,0 +1,34 @@
+.contenedor {
+    position: relative;
+}
+
+.imagen {
+	width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.imgPlayera{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.formedit{
+		margin-top: 55%;
+	}
+}
+
+@media screen and (min-width: 769px) {	
+	.formedit{
+		margin-top: auto;
+	}
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img {
+    width: 60%;
+    margin: auto;
+}

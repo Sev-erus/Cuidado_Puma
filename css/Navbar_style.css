@@ -1,0 +1,59 @@
+body{
+	background-color: #D3D3D3;
+}
+.navbar{
+	padding: 0%;
+	border: 1.5px black solid;
+	border-radius: 10px;
+	margin: 10px auto 30px auto;
+	position: static;
+}
+.navbar-brand{
+	font-family: impact;
+
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-nav {
+		margin-left: 0%;
+	}
+	.separador{
+		height: 1px; 
+		background-color: black;
+	}
+	.nav-selectA{
+		opacity: 0;
+	}
+	.nav-selectA.item{
+		height: 1px; 
+		background-color: black;
+		opacity: 1;
+	}
+
+}
+
+@media screen and (min-width: 769px) {
+	.navbar-nav {
+		margin-left: 65%;
+	}
+	
+	.item:hover + .nav-select{
+		opacity: 1;
+	}
+	.nav-select{
+		height: 2px; 
+		opacity: 0;
+		background-color: #3f888f;
+    	transition: opacity 0.3s ease;
+	}
+	.nav-selectA{
+		height: 2px; 
+		background-color: black;
+	}
+	
+}
+
+.item:hover{
+	color: #3f888f;}
+
+
